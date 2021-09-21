@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>miprimerweb</title>
+  <link rel="stylesheet" href="CSS/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="imagenes/JANGA1.png.png" alt="janga">
+    <nav class="header__nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="reservas.html">Reservas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="seccionReserva">
+    <div class="reserva__form">
+      <div class="formulario">
+
+        <form action="submeter-formulario.php" method="post">
+
+          <div>
+            <label for="nombre" class="colocar_nombre">Nombre
+              <span class="obligatorio"></span>
+            </label>
+            <input class="reserva__input" type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+              placeholder="Escribe tu nombre">
+          </div>
+          <div>
+            <label for="apellido" class="colocar_apellido">Apellido
+              <span class="obligatorio"></span>
+            </label>
+            <input class="reserva__input" type="text" name="introducir_apellido" id="apellido"
+              placeholder="Escribe tu apellido">
+            </p>
+          </div>
+          <div>
+            <label for="cantidad comensales" class="colocar_comensales">Cantidad comensales
+              <span class="obligatorio"></span>
+            </label>
+            <input class="reserva__input" type="text" name="introducir_comensales" id="comensales"
+              placeholder="cantidad de comensales">
+          </div>
+          <div>
+            <label for="fecha" class="ingrese_fecha">Ingrese fecha de reserva:
+              <span class="obligatorio"></span>
+            </label>
+            <input class="reserva__input" type="text" name="introducir_fecha" id="fecha" placeholder="dd/mm/aaaa">
+          </div>
+          <label for="hora" class="ingrese_reserva">Seleccione la hora de reserva
+            <span class="obligatorio"></span>
+          </label>
+          <select name="hora">
+            <option value="20:00">20:00</option>
+            <option value="20:30">20:30</option>
+            <option value="21:00">21:00</option>
+            <option value="21:30">21:30</option>
+            <option value="22:00">22:00</option>
+            <option value="22:30">22:30</option>
+            <option value="23:00">23:00</option>
+          </select>
+          <div>
+            <label for="email" class="colocar_email">Email
+            </label>
+            <input class="reserva__input" type="email" name="introducir_email" id="email"
+              placeholder="Escribe tu Email">
+          </div>
+
+          <div>
+            <label for="telefono" class="colocar_telefono">Teléfono
+              <span class="obligatorio"></span>
+            </label>
+            <input class="reserva__input" type="tel" name="introducir_telefono" id="telefono" required="obligatorio"
+              placeholder="Escribe tu teléfono">
+          </div>
+          <button class="reserva__button" type="submit" name="enviar_formulario" id="enviar">
+            <p>Enviar</p>
+          </button>
+
+        </form>
+      </div>
+    </div>
+    <div class="reserva__imagen">
+      <img src="imagenes/Reserva.jpg" alt="contacto">
+    </div>
+
+  </section>
+
+  <footer>
+    <section class="section__footer">
+      <img src="imagenes/JANGA1.png.png" alt="janga">
+      <nav class="footer__contacto">
+        <ul>
+          <strong>Contacto</strong>
+          <li>Direccion: Luis Saenz Peña 1548</li>
+          <li>Telefono: 1554895689</li>
+          <li>Email: JangaRestaurante@gmail.com</li>
+        </ul>
+      </nav>
+      <nav class="footer__secciones">
+        <ul>
+          <strong>Secciones</strong>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Menu.html">Menu</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="reservas.html">Reservas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__redes">
+        <ul>
+
+          <li><a href="https://www.facebook.com/enespanol/"><img src="imagenes/facebook.png.png" width="40"
+                alt="facebook"></a></li>
+          <li><a href="https://www.instagram.com/?hl=es"><img src="imagenes/instagram.png.png" width="40"
+                alt="instagram"></a>
+          </li>
+          <li><a href="https://twitter.com/?lang=es"><img src="imagenes/twitter.png.png" width="40" alt="twitter"></a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+  </footer>
+
+</body>
+
+</html>

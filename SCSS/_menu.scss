@@ -1,0 +1,86 @@
+ /* Menu HTML */
+
+  
+ .banner{
+    height: 100vh;
+    background-image: url(/imagenes/tasty-fresh-appetizing-italian-food-ingredients-on-dark-background-ready-to-cook-home-italian-healthy-food-cooking-concept-toning.jpg);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  .menuGrilla{
+    padding:5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    height: 100%;
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    grid-template-areas: "siete siete siete"
+                        "uno dos tres"
+                        "cuatro cinco seis"          ;
+}
+.menuGrilla2{
+    padding:5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 100%;
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    grid-template-areas: "siete siete siete"
+                        "uno dos tres"
+                        "cuatro cinco seis"          ;
+}
+.menuGrilla3{
+    padding:20% 5% 0 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 100%;
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    grid-template-areas: "siete siete siete"
+                        "uno dos tres"
+                        "cuatro cinco seis"          ;
+}
+.menuGrilla4{
+    padding:20% 5% 25% 5%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 100%;
+    grid-column-gap: 5%;
+    grid-row-gap: 20%;
+    grid-template-areas: "siete siete siete"
+                        "uno dos tres"
+                        "cuatro cinco seis"          ;
+}
+
+.titulo{  
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 300%;
+    height: auto;
+    border-bottom: solid black;
+    grid-area: siete;
+}
+.menu{
+    font-size: 180%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 200%;
+}

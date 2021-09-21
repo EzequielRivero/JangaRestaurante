@@ -1,0 +1,71 @@
+/* formulario reservas*/
+
+
+  .reserva__form{  
+    width: 70%; 
+    height: 170%;
+    border-radius: 10px;
+    padding: 30px 0 20px 30px;   
+    background-color: #f3f3f3;   
+    font-size: 150%;
+    padding: 2% 0 5% 10%;
+      }
+    .reserva__input{
+      background-color: #f3f3f3; 
+      width: 70%; 
+      height: 30px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #205699; 
+      margin: 10px 0 20px 0;  
+      padding-left: 10px;
+    }
+
+    .seccionReserva{
+      height: 100%;
+      display: flex;
+      font-family: 'Poppins', sans-serif;
+      background-color:#f3f3f3 ;
+       }
+
+    .reserva__button{
+      height: 45px; 
+      padding-left: 5px;
+      padding-right: 5px;   
+      margin-bottom: 20px; 
+      margin-top: 10px;   
+      text-transform: uppercase;
+      background-color: #205699; 
+      border-color: #205699; 
+      border-style: solid; 
+      border-radius: 10px;  
+      width: 70%;   
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+    }
+  
+  
+
+
+
+
+.reserva__imagen{
+  width: auto;
+  height: 100%;
+  overflow: hidden;
+  padding: 5% 2% 0 0;
+  img{
+    width: 100%;
+    height: auto;
+  }
+  @supports(object-fit: cover){
+      img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+      }
+  }
+}
+  

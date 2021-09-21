@@ -1,0 +1,82 @@
+/* formularios contacto */ 
+.contact_form{  
+    width: 50%; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding: 30px 0 20px 30px;   
+    background-color: #f3f3f3;   
+    font-size: 180%; 
+    font-family: 'Poppins', sans-serif;
+    h1{
+      font-size: 300%;  
+      text-align: center; 
+      padding-bottom: 20px; 
+      color: #205699;
+      font-family: 'Poppins', sans-serif;
+    }
+    input{
+      background-color: #f3f3f3; 
+      width: 93%; 
+      height: 40px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #205699; 
+      margin: 10px 0 20px 0;  
+      padding-left: 10px;
+      font-family: 'Poppins', sans-serif;
+    }
+    textarea{
+      background-color: #f3f3f3; 
+      width: 93%; 
+      height: 150px; 
+      border-radius: 5px;  
+      border-style: solid; 
+      border-width: 1px; 
+      border-color: #205699; 
+      padding: 15px 0 0 10px;
+      margin: 10px 0 20px 0;  
+      font-family: 'Poppins', sans-serif;
+    }
+    label{
+      display: block; 
+      float: center;  
+    }  
+    button{
+      height: 45px; 
+      padding-left: 5px;
+      padding-right: 5px;   
+      margin-bottom: 20px; 
+      margin-top: 10px;   
+      font-size: 100%;
+      text-transform: uppercase;
+      background-color: #205699; 
+      border-color: #205699; 
+      border-style: solid; 
+      border-radius: 10px;  
+      width: 93%;   
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      p{
+        color: #f3f3f3; 
+      }
+    }
+    span{
+      color: #12146d; 
+    }
+    .aviso{
+      font-size: 100%;  
+      color: #0e0e0e;  
+    }
+  
+    .formulario input:focus{
+      outline:0;
+      border: 1px solid #d50212;
+    }
+    .formulario textarea:focus{
+      outline:0;
+      border: 1px solid #d50212;
+    }
+  }
+  
