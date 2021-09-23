@@ -61,7 +61,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(/imagenes/template1.png.png);
+  background-image: url(../imagenes/template12.jpg);
   background-repeat: round space;
   background-color: black;
   background-attachment: fixed;
@@ -151,7 +151,7 @@ footer {
 /* Menu HTML */
 .banner {
   height: 100vh;
-  background-image: url(/imagenes/tasty-fresh-appetizing-italian-food-ingredients-on-dark-background-ready-to-cook-home-italian-healthy-food-cooking-concept-toning.jpg);
+  background-image: url(../imagenes/tasty-fresh-appetizing-italian-food-ingredients-on-dark-background-ready-to-cook-home-italian-healthy-food-cooking-concept-toning.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
