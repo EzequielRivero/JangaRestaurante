@@ -1,0 +1,42 @@
+@media (max-width: 600px){
+    .body__encabezado{
+        background-image: none;
+        background-color: #c7e8e8;
+        height: 30vh;
+        p{
+            width: 80%;
+        }
+    }
+    .section__p{
+        display: flex;
+        flex-direction: column;
+    }
+    .section__menu{
+        width: 80% !important;   
+    }
+    .section_reserva{
+        background-image: none;
+        justify-content: center;
+        height: 300px;
+        .reserva__info{
+            height: 150px;
+            width: 80%;
+        }
+    }
+    .section__contacto{
+        flex-direction: column;
+        height: 400px;
+        align-items: center;
+        .contacto__info{
+            width: 80%;
+            padding-bottom: 5%;
+            
+        }
+    }
+    footer {
+        background-color: #79b4d6 !important;
+    }
+    .section__footer{
+        flex-direction: column;
+    }
+}
