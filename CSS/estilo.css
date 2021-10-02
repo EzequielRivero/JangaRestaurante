@@ -504,7 +504,7 @@ footer {
     grid-row-gap: 5%;
     grid-template-areas: "siete siete " "uno dos " "tres cuatro "  "cinco seis"; }
   .menuGrilla4 {
-    padding: 20% 5% 35% 5%;
+    padding: 20% 5% 50% 5%;
     font-family: 'Poppins', sans-serif;
     font-size: 90%;
     display: grid;
