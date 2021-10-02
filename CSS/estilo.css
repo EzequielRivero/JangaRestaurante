@@ -168,7 +168,9 @@ footer {
   height: 100%;
   grid-column-gap: 5%;
   grid-row-gap: 20%;
-  grid-template-areas: "siete siete siete" "uno dos tres" "cuatro cinco seis"; }
+  grid-template-areas: "siete siete siete"
+ "uno dos tres"
+ "cuatro cinco seis"; }
 
 .menuGrilla2 {
   padding: 5%;
@@ -180,7 +182,9 @@ footer {
   height: 100%;
   grid-column-gap: 5%;
   grid-row-gap: 20%;
-  grid-template-areas: "siete siete siete" "uno dos tres" "cuatro cinco seis"; }
+  grid-template-areas: "siete siete siete"
+ "uno dos tres"
+ "cuatro cinco seis"; }
 
 .menuGrilla3 {
   padding: 20% 5% 0 5%;
@@ -192,7 +196,9 @@ footer {
   height: 100%;
   grid-column-gap: 5%;
   grid-row-gap: 20%;
-  grid-template-areas: "siete siete siete" "uno dos tres" "cuatro cinco seis"; }
+  grid-template-areas: "siete siete siete"
+ "uno dos tres"
+ "cuatro cinco seis"; }
 
 .menuGrilla4 {
   padding: 20% 5% 25% 5%;
@@ -204,7 +210,9 @@ footer {
   height: 100%;
   grid-column-gap: 5%;
   grid-row-gap: 20%;
-  grid-template-areas: "siete siete siete" "uno dos tres" "cuatro cinco seis"; }
+  grid-template-areas: "siete siete siete"
+ "uno dos tres"
+ "cuatro cinco seis"; }
 
 .titulo {
   display: flex;
@@ -483,7 +491,10 @@ footer {
     height: 100%;
     grid-column-gap: 5%;
     grid-row-gap: 5%;
-    grid-template-areas: "siete siete" "uno dos" "tres cuatro" "cinco seis"; }
+    grid-template-areas: "siete siete"
+ "uno dos"
+ "tres cuatro"
+ "cinco seis"; }
   .menuGrilla2 {
     padding: 5%;
     font-family: 'Poppins', sans-serif;
@@ -494,7 +505,10 @@ footer {
     height: 100%;
     grid-column-gap: 5%;
     grid-row-gap: 5%;
-    grid-template-areas: "siete siete" "uno dos " "tres cuatro "   "cinco seis"; }
+    grid-template-areas: "siete siete"
+ "uno dos "
+ "tres cuatro "  
+ "cinco seis"; }
   .menuGrilla3 {
     padding: 20% 5% 0 5%;
     font-family: 'Poppins', sans-serif;
@@ -505,7 +519,10 @@ footer {
     height: 100%;
     grid-column-gap: 5%;
     grid-row-gap: 5%;
-    grid-template-areas: "siete siete " "uno dos " "tres cuatro "  "cinco seis"; }
+    grid-template-areas: "siete siete "
+ "uno dos "
+ "tres cuatro " 
+ "cinco seis"; }
   .menuGrilla4 {
     padding: 20% 5% 35% 5%;
     font-family: 'Poppins', sans-serif;
@@ -516,7 +533,10 @@ footer {
     height: 100%;
     grid-column-gap: 5%;
     grid-row-gap: 5%;
-    grid-template-areas: "siete siete " "uno dos " "tres cuatro"   "cinco seis"; }
+    grid-template-areas: "siete siete "
+ "uno dos "
+ "tres cuatro"  
+ "cinco seis"; }
   /*media query reservas*/
   .seccionReserva {
     flex-direction: column; }
