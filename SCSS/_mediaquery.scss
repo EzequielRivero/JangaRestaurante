@@ -23,6 +23,9 @@
         img{
             width: 350px;
         }
+        .section__efecto:hover{
+            width: 380px;
+        }
     }
     .section__menu{
         width: 80% !important;   
@@ -33,7 +36,7 @@
         height: 400px;
         padding-bottom: 5%;
         .reserva__info{
-            height: 200px;
+            height: 250px;
             width: 80%;
     
         }
@@ -107,7 +110,7 @@
                             "cinco seis"         ;
     }
     .menuGrilla4{
-        padding:20% 5% 25% 5%;
+        padding:20% 5% 35% 5%;
         font-family: 'Poppins', sans-serif;
         font-size: 90%;
         display: grid;
