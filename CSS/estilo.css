@@ -441,7 +441,8 @@ footer {
 @media (max-width: 640px) {
   /* mediquery index*/
   header label {
-    display: block; }
+    display: block;
+    color: white; }
   header .header__nav {
     position: absolute;
     background-color: #185a9d;
