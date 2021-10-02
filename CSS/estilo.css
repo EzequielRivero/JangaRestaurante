@@ -429,14 +429,15 @@ footer {
 .error-actions .btn {
   margin-right: 10px; }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   /* mediquery index*/
   header .header__nav ul {
     flex-direction: column; }
   .body__encabezado {
     background-image: none;
     background-color: #c7e8e8;
-    height: 30vh; }
+    height: 30vh;
+    padding-bottom: 50%; }
     .body__encabezado p {
       width: 80%; }
   .section__p {
@@ -526,6 +527,72 @@ footer {
   /*media query contacto*/
   .contact_form {
     width: 100%; }
+  .iframe {
+    width: 100%; } }
+
+@media (max-width: 770px) {
+  /* media query index*/
+  .body__encabezado {
+    background-image: none;
+    background-color: #c7e8e8;
+    height: 30vh;
+    padding-bottom: 30%; }
+    .body__encabezado p {
+      width: 80%; }
+  .section_reserva {
+    background-image: none;
+    justify-content: center;
+    height: 400px;
+    padding-bottom: 5%; }
+    .section_reserva .reserva__info {
+      height: 250px;
+      width: 80%; }
+  .section__contacto {
+    flex-direction: column;
+    height: 600%;
+    align-items: center; }
+    .section__contacto .contacto__info {
+      width: 80%;
+      padding-bottom: 5%; }
+  /*media query menu*/
+  .banner {
+    height: 50vh; }
+  /*media query reservas*/
+  .seccionReserva {
+    flex-direction: column; }
+  .reserva__form {
+    width: 90%; }
+  .reserva__button {
+    width: 80%; }
+  /*media query contacto*/
+  .contact_form {
+    width: 100%; }
+  .iframe {
+    width: 100%; }
+  /* media query footer */
+  footer {
+    height: 100%; }
+  .section__footer {
+    flex-direction: column; } }
+
+@media (max-width: 1024px) {
+  .body__encabezado {
+    background-image: none;
+    background-color: #c7e8e8;
+    height: 30vh;
+    padding-bottom: 20%; }
+    .body__encabezado p {
+      width: 80%; }
+  .section__contacto {
+    height: 500%; }
+  /*media query reservas*/
+  .seccionReserva {
+    flex-direction: column; }
+  .reserva__form {
+    width: 90%; }
+  .reserva__button {
+    width: 80%; }
+  /*media query contacto*/
   .iframe {
     width: 100%; } }
 
