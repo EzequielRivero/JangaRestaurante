@@ -12,10 +12,7 @@
         background-color: #c7e8e8;
         height: 30vh;
         img{
-            width: 350px;
-        }
-        .section__efecto:hover{
-            width: 300px;
+            width: 250px;
         }
         p{
             width: 80%;
@@ -41,7 +38,7 @@
     }
     .section__contacto{
         flex-direction: column;
-        height: 600px;
+        height: 600%;
         align-items: center;
         .contacto__info{
             width: 80%;
