@@ -434,6 +434,10 @@ footer {
     background-image: none;
     background-color: #c7e8e8;
     height: 30vh; }
+    .body__encabezado img {
+      width: 350px; }
+    .body__encabezado .section__efecto:hover {
+      width: 300px; }
     .body__encabezado p {
       width: 80%; }
   .section__p {

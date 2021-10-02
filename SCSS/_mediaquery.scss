@@ -3,6 +3,12 @@
         background-image: none;
         background-color: #c7e8e8;
         height: 30vh;
+        img{
+            width: 350px;
+        }
+        .section__efecto:hover{
+            width: 300px;
+        }
         p{
             width: 80%;
         }
