@@ -12,16 +12,17 @@
         background-image: none;
         background-color: #c7e8e8;
         height: 30vh;
-        img{
-            width: 250px;
-        }
         p{
             width: 80%;
         }
     }
+
     .section__p{
         display: flex;
         flex-direction: column;
+        img{
+            width: 350px;
+        }
     }
     .section__menu{
         width: 80% !important;   
