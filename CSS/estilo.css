@@ -12,6 +12,15 @@ header {
   line-height: 2;
   letter-spacing: 2px;
   text-align: center; }
+  header label {
+    display: none;
+    width: 40px;
+    height: 40px; }
+  header label:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.3); }
+  header #btn-menu {
+    display: none; }
   header .header__nav ul {
     background-color: #185a9d;
     display: flex;
@@ -431,8 +440,18 @@ footer {
 
 @media (max-width: 640px) {
   /* mediquery index*/
-  header .header__nav ul {
-    flex-direction: column; }
+  header label {
+    display: block; }
+  header .header__nav {
+    position: absolute;
+    background-color: #185a9d;
+    width: 60%;
+    margin-left: -60%;
+    transition: all 0.5s; }
+    header .header__nav ul {
+      flex-direction: column; }
+  header #btn-menu:checked ~ .header__nav {
+    margin: 0; }
   .body__encabezado {
     background-image: none;
     background-color: #c7e8e8;

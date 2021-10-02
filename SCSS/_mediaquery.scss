@@ -1,8 +1,23 @@
 @media (max-width: 640px){
     /* mediquery index*/
     header{
-        .header__nav ul{
-            flex-direction: column;
+        
+        label{
+            display: block;
+        }
+       
+        .header__nav{
+            position:absolute;
+            background-color: #185a9d;
+            width: 60%;
+            margin-left:-60%;
+            transition: all 0.5s;
+            ul{
+                flex-direction: column;
+            }
+        }
+        #btn-menu:checked ~ .header__nav{
+            margin:0;
         }
     }
 

@@ -9,6 +9,19 @@ header{
     line-height: 2;
     letter-spacing: 2px;
     text-align: center;
+    label{
+        display: none;
+        width: 40px;
+        height: 40px;
+        
+    }
+    label:hover{
+        cursor: pointer;
+        background-color:rgba(0, 0, 0, 0.3)
+    }
+    #btn-menu{
+        display: none;
+    }
     .header__nav ul{
         background-color:#185a9d;
         display: flex;
